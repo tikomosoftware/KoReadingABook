@@ -4,9 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Reading a Book" Height="250" Width="300"
+        Title="Reading a Book" Height="250" Width="550"
         Icon="Resources/app-icon.ico"
-        MinHeight="250" MinWidth="300"
+        MinHeight="250" MinWidth="550"
         WindowStartupLocation="Manual"
         Background="#F3F4F6" FontFamily="Segoe UI">
     <Window.Resources>
