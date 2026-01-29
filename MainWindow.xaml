@@ -66,6 +66,7 @@
             </StackPanel>
             
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="ClearButton" Content="Clear" Click="ClearButton_Click" Background="#3B82F6" Foreground="White" BorderThickness="0" Width="60"/>
                 <Button x:Name="StartButton" Content="Start" Click="StartButton_Click" Background="#10B981" Foreground="White" BorderThickness="0" Width="60"/>
                 <Button x:Name="StopButton" Content="Stop" Click="StopButton_Click" Background="#EF4444" Foreground="White" BorderThickness="0" Width="60" IsEnabled="False"/>
             </StackPanel>

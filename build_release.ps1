@@ -2,7 +2,7 @@
 # 2つのビルドを作成: フレームワーク依存版（軽量）と自己完結型版（単一EXE）
 
 param(
-    [string]$Version = "1.0.0"
+    [string]$Version = "1.0.1"
 )
 
 $ErrorActionPreference = "Stop"
@@ -54,10 +54,12 @@ try {
         Compress-Archive -Path "$TempFrameworkDir\*" -DestinationPath $FrameworkZipFile
         Write-Host "  ✓ Framework-dependent build completed" -ForegroundColor Green
         $frameworkBuildSuccess = $true
-    } else {
+    }
+    else {
         throw "Build failed with exit code $LASTEXITCODE"
     }
-} catch {
+}
+catch {
     Write-Host "  ✗ Framework-dependent build failed: $($_.Exception.Message)" -ForegroundColor Red
 }
 
@@ -89,10 +91,12 @@ try {
         Compress-Archive -Path "$TempStandaloneDir\*" -DestinationPath $StandaloneZipFile
         Write-Host "  ✓ Self-contained build completed" -ForegroundColor Green
         $standaloneBuildSuccess = $true
-    } else {
+    }
+    else {
         throw "Build failed with exit code $LASTEXITCODE"
     }
-} catch {
+}
+catch {
     Write-Host "  ✗ Self-contained build failed: $($_.Exception.Message)" -ForegroundColor Red
 }
 

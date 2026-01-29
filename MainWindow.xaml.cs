@@ -85,6 +85,11 @@ namespace KoReadingABook
             StopProcess();
         }
 
+        private void ClearButton_Click(object sender, RoutedEventArgs e)
+        {
+            Logs.Clear();
+        }
+
         private void StartProcess()
         {
             if (_isRunning) return;

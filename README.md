@@ -1,4 +1,4 @@
-﻿# KoReadingABook v1.0.0 📖
+﻿# KoReadingABook v1.0.1 📖
 **Windows Active Window Simulator**
 
 ![KoReadingABook](https://img.shields.io/badge/version-0.1.0--alpha-orange)
