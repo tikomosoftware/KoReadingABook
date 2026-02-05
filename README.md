@@ -43,6 +43,11 @@ KoReadingABook は、PCの操作をシミュレートするユーティリティ
 - 一部の管理者権限で動作するアプリケーション（タスクマネージャー等）に対しては、本ツールも管理者として実行しない限り制御できない場合があります。
 - マウス移動中はスクリーンセーバーが起動しない場合があります。
 
+## 📞 サポート
+
+- **E-Mail**: tikomo@gmail.com
+- **HP**: https://tikomosoftware.github.io
+
 ---
 © 2026 tikomo software
 
